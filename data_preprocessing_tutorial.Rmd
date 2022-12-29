@@ -27,7 +27,7 @@ head(airquality)
 ```
 
 Using head() function, we can clearly see that there are missing values (denoted as NA) in this dataset. But how many values are missing? We can find this out using the n_miss() function from the "naniar" package.
-
+colssum(airquality)
 
 ```{r}
 n_miss(airquality)
